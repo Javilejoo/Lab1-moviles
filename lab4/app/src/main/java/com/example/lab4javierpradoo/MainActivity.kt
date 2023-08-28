@@ -41,9 +41,6 @@ class MainActivity : ComponentActivity() {
     }
 }
 
-
-
-
 @Composable
 fun IconWithText(icon: Painter, text: String, modifier: Modifier) {
     Row(
@@ -72,7 +69,6 @@ fun IconWithText(icon: Painter, text: String, modifier: Modifier) {
     }
 }
 
-
 @Preview(showBackground = true)
 @Composable
 fun GreetingPreview() {
@@ -80,3 +76,5 @@ fun GreetingPreview() {
         AppNavigation()
     }
 }
+
+
